@@ -1,3 +1,11 @@
+Project Overview
+Our fictitious company is called The E-Commerce Company.
+
+After a failure in our datacenter, the CEO has demanded our team come up with a better solution to prepare and handle such failure events moving forward and mitigate the downtime it caused our customers. You are given the job to design a private cloud solution for your company’s key revenue generator, an e-commerce web application.
+
+According to your CEO, all of the VMs must be protected against failure.
+
+##################################
 
 CTO E-mail
 Hello,
@@ -42,18 +50,16 @@ Systems Administration
 --------------------------------------------------------
 
 
-Configurations
-Before you use this workspace, please make sure you have followed the directions on the "Workspace Warmup" page.
 
 Directions
 Refer to the e-mails provided in the project to set the correct configurations for the following:
 
-The NTP server to the HCI Cloud Platform.
-The Name Server to the HCI Cloud Platform.
-A managed virtual network using IPAM/DHCP in the HCI Cloud Platform.
-An unmanaged virtual network in the HCI Cloud Platform.
-A storage container to the HCI Cloud Platform and upload Windows and Linux (CentOS) virtual disk images to the new container.
-Deploying Windows and Linux virtual machines in the HCI Cloud Platform.
-Creating virtual machine clones and change configurations in the HCI Cloud Platform.
-Creating data protection configurations to automate virtual machine snapshots.
-Performing virtual machine restorations using the data protection snapshots.
+- The NTP server to the HCI Cloud Platform.
+- The Name Server to the HCI Cloud Platform.
+- A managed virtual network using IPAM/DHCP in the HCI Cloud Platform.
+- An unmanaged virtual network in the HCI Cloud Platform.
+- A storage container to the HCI Cloud Platform and upload Windows and Linux (CentOS) virtual disk images to the new container.
+- Deploying Windows and Linux virtual machines in the HCI Cloud Platform.
+- Creating virtual machine clones and change configurations in the HCI Cloud Platform.
+- Creating data protection configurations to automate virtual machine snapshots.
+- Performing virtual machine restorations using the data protection snapshots.
