@@ -1,0 +1,26 @@
+To: CTO
+
+Stakeholder needs: To have a scalable, highly available and recoverable 3-Tier application stack hybrid cloud for thier e-commerce web application with separate production and development environments.
+
+Tasks performed: Created separate prod and dev environments using Nutanix's hybrid cloud solution. Recoverable within every 60 minutes. Created separate networks for prod and dev. Set up protection domain. The tiers are configured with windows for DB and linux for the app and web server. Below are the configuration details: -----------------
+
+The NTP server: Created with "pool.ntp.org" pool.
+The Name Server: On "8.8.8.8" address.
+A managed virtual network: Named "my_managed_network" on "0-172.31.0.0-24" (VLAN_ID-SubnetIP-Prefix Length)
+An unmanaged virtual network: Named "my_unmanaged_network" on "101" VLAN_ID
+A storage container: Named the location "Images" and put 2 images into it, one is windows other one is centOS
+
+Prod VMs: db-prod(windows image based), app-prod(linux image based), web-prod(linux image based) 
+		  config: (managed network, vCPU:1, Memory: 4GB)
+Cloned Dev VMs: db-dev(windows image based), app-dev(linux image based), web-dev(linux image based) 
+		  config: (unmanaged network, vCPU:1, Memory: 4GB)
+
+Data protection configurations: Name: My_PD, Scheduled to run: Every 60 Minutes
+Virtual machine restorations: Tested by removing web-prod(linux image based) VM and restoring it with the same. New VM: "Nutanix-Clone-web-prod"
+
+
+Kindly contact me anytime if clarifications are required for any of the things mentioned above.
+
+
+Thanks & Regards,
+Amanpreet Singh

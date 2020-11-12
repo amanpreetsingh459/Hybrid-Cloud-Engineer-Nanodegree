@@ -1,0 +1,7 @@
+To: CTO
+
+Stakeholder needs: To have a scalable, highly available and recoverable 3-Tier application stack hybrid cloud for thier e-commerce web application with separate production and development environments.
+
+Tasks performed: Created separate prod and dev environments using Nutanix's hybrid cloud solution. Recoverable within every 60 minutes. Created separate networks for prod and dev. Set up protection domain. The tiers are configured with windows for DB and linux for the app and web server.
+
+Amanpreet Singh
