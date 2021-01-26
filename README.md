@@ -1,6 +1,6 @@
 # Hybrid Cloud Engineer Nanodegree (HCEND), Udacity
 
-> **I was one of the 500 HCEND recipients chosen from the 5000 participants in the _"Nutanix Hybrid Cloud Scholarship Program"_. This repo contains a collection of project deliverables from my HCEND course work. **
+> I was one of the 500 HCEND recipients chosen from the 5000 participants in the _"Nutanix Hybrid Cloud Scholarship Program"_. This repo contains a collection of project deliverables from my HCEND course work.
 
 
 ![img](nanodegree_completion_certificate_image.png)
